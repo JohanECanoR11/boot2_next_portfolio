@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import Link from "next/link";
 
-import { skills, experiences, projects } from "./profile";
+import { skills, experiences, projects } from "@/pages/profile";
 
 export default function Home() {
   return (
