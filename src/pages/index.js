@@ -24,7 +24,7 @@ export default function Home() {
                   desarrollar mis habilidades.
                 </p>
                 <Link href="/hireme" className="btn btn-outline-light">
-                  Hire Me
+                  Contáctame
                 </Link>
               </div>
             </div>
@@ -38,7 +38,7 @@ export default function Home() {
         <div className="col-md-4 py-2">
           <div className="card bg-light animate__animated animate__fadeInLeft">
             <div className="card-body">
-              <h1>Skills</h1>
+              <h1>Habilidades</h1>
 
               {/* Skill Progress  */}
               {skills.map(({ skill, percentage }, i) => (
@@ -64,7 +64,7 @@ export default function Home() {
           {/* Experience */}
           <div className="card bg-light animate__animated animate__fadeInRight">
             <div className="card-body">
-              <h1>Experience</h1>
+              <h1>Experiencia</h1>
 
               <ul>
                 {/* List Item Experience */}
@@ -79,7 +79,7 @@ export default function Home() {
                 ))}
               </ul>
               <Link href="/hireme" className="btn btn-light">
-                Know More
+                Saber más...
               </Link>
             </div>
           </div>
@@ -104,7 +104,7 @@ export default function Home() {
                       <div className="card-body">
                         <h3>{name}</h3>
                         <p>{description}</p>
-                        <a href="#!">Know More</a>
+                        <a href="#!">Saber más...</a>
                       </div>
                     </div>
                   </div>
@@ -113,7 +113,7 @@ export default function Home() {
                 <div className="col-md-12 mt-4">
                   <div className="text-center">
                     <Link href="/portfolio" className="btn btn-outline-light">
-                      More Projects
+                      Proyectos
                     </Link>
                   </div>
                 </div>

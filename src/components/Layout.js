@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import Navbar from './Navbar'
 import Nprogress from 'nprogress';
-import nProgress from 'nprogress';
 import { useRouter } from 'next/router';
 import PropTypes from 'prop-types';
 
@@ -49,9 +48,9 @@ const Layout = ({ children, footer = true }) => {
       { footer && (
         <footer className="bg-dark text-light text-center">
         <div className="container p-4">
-          <h1>&copy; Johan Eduardo Cano Ruiz Portfolio</h1>
+          <h1>&copy; Johan Eduardo Cano Ruiz Portafolio</h1>
           <p>2024 - {new Date().getFullYear()}</p>
-          <p>All rights Reserved.</p>
+          <p>Todos los derechos reservados.</p>
         </div>
       </footer>
       )}

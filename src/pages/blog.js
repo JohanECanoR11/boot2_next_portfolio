@@ -14,7 +14,7 @@ const PostCard = ({ post }) => (
         <h1>{post.title}</h1>
         <p>{post.content}</p>
         <Link href={`/post?title=${post.title}`}>
-          <button className="btn btn-light">Read</button>
+          <button className="btn btn-light">Leer más...</button>
         </Link>
       </div>
     </div>
@@ -23,7 +23,7 @@ const PostCard = ({ post }) => (
 
 const blog = () => {
   return (
-    <Layout title="My Blog" footer={false} dark>
+    <Layout title="Mi Blog" footer={false} dark>
       <div className='row'>
         {posts.map((post, i) => (
           <PostCard post={post} key={i}/>
